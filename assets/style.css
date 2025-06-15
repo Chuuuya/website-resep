@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Young-Serif';
+    src: url(/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf) format('tff');
+}
+
+
+body {
+    font-family: 'Young-Serif', arial, sans-serif;
+    background-color: rgba(243, 229, 216, 255);
+}
+
+.container {
+    width: 650px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol {
+    color: rgba(143, 78, 56, 255);
+}
+
+.image {
+    width: 547px;
+    margin: auto;
+    padding: 40px;
+}
+
+.image img {
+    border-radius: 15px;
+}
+
+.main {
+    margin: auto;
+    padding: 40px;
+}
+
+.main h1 {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: -40px;
+}
+
+p {
+    padding: 10px;
+}
+
+.main h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0px 0px 50px;
+}
+
+.main .preparation {
+    padding: 10px 0px 0px 80px;
+    list-style-type: disc;
+}
+
+.main .preparation li {
+    padding: 5px;
+}
+
+.main h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+    padding: 0px 0px 10px 0px;
+}
+
+.main .ingredients {
+    padding: 30px;
+    padding-top: 10px;
+    list-style: disc;
+}
+
+.main .ingredients li {
+    padding: 5px;
+}
+
+.garis {
+    border-bottom: 1px solid black;
+}
+
+.main h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 0px 0px 10px 0px;
+}
+
+.main .instructions {
+    list-style: decimal;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.main .instructions li {
+    padding: 5px;
+}
+
+.nutrition-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 24px;
+
+}
+
+.nutrition-box h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-left: -30px;
+}
+
+.nutrition-box p {
+    font-size: 14px;
+    margin-bottom: 16px;
+    margin-left: -35px;
+}
+
+.nutrition-box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-box td {
+    padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.nutrition-box td:first-child {
+    text-align: left;
+}
+
+.nutrition-box td:last-child {
+    text-align: left;
+    font-weight: bold;
+}
+.attribution {
+    padding: 50px;
+    text-align: center;
+}
